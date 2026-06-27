@@ -1,0 +1,49 @@
+.metric-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    border: 1px solid #e9ecef;
+    margin-bottom: 1rem;
+}
+
+.metric-label {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 6px;
+}
+
+.metric-value {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.strength-item {
+    background: #f0fdf4;
+    border-left: 3px solid #22c55e;
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #166534;
+}
+
+.weakness-item {
+    background: #fff7f0;
+    border-left: 3px solid #f97316;
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #9a3412;
+}
+
+.advice-box {
+    background: #eff6ff;
+    border-left: 3px solid #3b82f6;
+    padding: 14px 18px;
+    border-radius: 0 8px 8px 0;
+    font-size: 14px;
+    color: #1e40af;
+    margin-top: 1rem;
+}

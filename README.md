@@ -1,17 +1,21 @@
 # CV Analyzer 🔍
 
-An AI-powered tool that analyzes a CV against a job description and gives:
-- A match score out of 10
+An AI-powered web app that analyzes a CV against a job description.
+
+## Features
+- Match score out of 10
 - Top 3 strengths
-- Top 3 weaknesses
+- Top 3 weaknesses  
 - Specific advice to improve
 
 ## Built with
 - Python
 - Groq API (LLaMA 3.3)
+- Streamlit
 - python-dotenv
 
 ## How to run
 1. Clone the repo
-2. Add your GROQ_API_KEY in a .env file
-3. Run: python cv_analyzer.py
+2. Install dependencies: pip install -r requirements.txt
+3. Add your GROQ_API_KEY in a .env file
+4. Run: streamlit run app.py
