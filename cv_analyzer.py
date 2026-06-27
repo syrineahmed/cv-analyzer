@@ -91,26 +91,4 @@ if __name__ == "__main__":
     result = analyze_cv(job, cv)
     print(result)
 
-#test
-# job = """
-# We are looking for a Full stack Developer with:
-# - React.js experience
-# - Spring Boot backend
-# - Docker knowledge
-# - CI/CD pipeline experience
-# - Good Communication skills
-# """
-
-# cv = """
-# Syrine Ahmed - Software Engineer
-# Skills: React.js , Spring Boot , Docker , Github Actions , PostgresSQL
-# Projects: Built WeLoad platform with microservices architecture
-# Education: Software Engineering degree from ESPRIT
-# Languages: Arabic, French, English, German
-# """
-
-# print("=== CV ANALYZER ===")
-# job = input ("Paste the job description: ")
-# cv = input("Paste your CV text: ")
-
 
