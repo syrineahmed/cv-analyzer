@@ -19,3 +19,8 @@ An AI-powered web app that analyzes a CV against a job description.
 2. Install dependencies: pip install -r requirements.txt
 3. Add your GROQ_API_KEY in a .env file
 4. Run: streamlit run app.py
+
+
+## Preview
+![App Screenshot](screenshot.jpg)
+![Demo](demo.gif)
