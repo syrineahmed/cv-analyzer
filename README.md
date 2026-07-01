@@ -24,3 +24,6 @@ An AI-powered web app that analyzes a CV against a job description.
 ## Preview
 ![App Screenshot](screenshot.jpg)
 ![Demo](demo.gif)
+
+## 🌐 Live Demo
+👉 [Try it here](https://cv-analyzer-syrineahmed.streamlit.app/)
