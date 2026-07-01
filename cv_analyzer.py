@@ -2,15 +2,10 @@ from groq import Groq
 from dotenv import load_dotenv
 import os
 import json
-import streamlit as st
 
 
-try:
-    api_key = st.secrets["GROQ_API_KEY"]
-except:
-    from dotenv import load_dotenv
-    load_dotenv()
-    api_key = os.getenv("GROQ_API_KEY")
+load_dotenv()
+api_key = os.environ.get("GROQ_API_KEY")
 
 client = Groq(api_key=api_key)
 
